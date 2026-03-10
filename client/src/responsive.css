@@ -1,0 +1,136 @@
+/* ===== NAVBAR ===== */
+@media (max-width: 768px) {
+  nav {
+    padding: 0 1rem !important;
+    flex-wrap: wrap;
+    height: auto !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    gap: 0.5rem;
+  }
+}
+
+/* ===== HERO ===== */
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column !important;
+    padding: 2rem 1.5rem !important;
+    text-align: center;
+    min-height: auto !important;
+  }
+
+  .hero-title {
+    font-size: 2rem !important;
+  }
+
+  .hero-btns {
+    justify-content: center !important;
+  }
+
+  .hero-stats {
+    justify-content: center !important;
+  }
+
+  .hero-image-inner {
+    font-size: 5rem !important;
+  }
+}
+
+/* ===== CATEGORIES ===== */
+@media (max-width: 768px) {
+  .categories-grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .categories-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+/* ===== PRODUCTS GRID ===== */
+@media (max-width: 768px) {
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .products-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* ===== FEATURES GRID ===== */
+@media (max-width: 768px) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .features-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* ===== PRODUCT DETAIL ===== */
+@media (max-width: 768px) {
+  .product-detail-container {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+}
+
+/* ===== CART ===== */
+@media (max-width: 768px) {
+  .cart-layout {
+    grid-template-columns: 1fr !important;
+  }
+
+  .cart-card {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+}
+
+/* ===== CHECKOUT ===== */
+@media (max-width: 768px) {
+  .checkout-layout {
+    grid-template-columns: 1fr !important;
+  }
+
+  .checkout-row {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* ===== ORDERS ===== */
+@media (max-width: 768px) {
+  .order-header {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 0.5rem !important;
+  }
+
+  .order-footer {
+    flex-direction: column !important;
+    gap: 0.5rem !important;
+  }
+}
+
+/* ===== GENERAL ===== */
+@media (max-width: 768px) {
+  .page-section {
+    padding: 2rem 1rem !important;
+  }
+
+  .banner-section {
+    padding: 2rem 1rem !important;
+  }
+
+  .banner-title {
+    font-size: 1.3rem !important;
+  }
+}
